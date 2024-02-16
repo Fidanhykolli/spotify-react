@@ -8,6 +8,7 @@ body {
   );
 }
 
+/*SIDEBAR SECTION*/
 .navbar.fixed-left {
   position: fixed;
   top: 0;
@@ -49,8 +50,6 @@ ul {
 .nav-btn a {
   color: rgb(145, 145, 145);
   text-decoration: none;
-  font-size: 17px;
-
 }
 
 .nav-link i {
@@ -67,9 +66,9 @@ ul {
 }
 
 .signup-btn:hover {
-  color: white !important;
-  background-color: rgb(60, 211, 60) !important;
-  border: 1px solid rgb(60, 211, 60) !important;
+  color: white;
+  background-color: rgb(60, 211, 60);
+  border: 1px solid rgb(60, 211, 60);
 }
 
 .login-btn {
@@ -82,8 +81,8 @@ ul {
 }
 
 .login-btn:hover {
-  color: black !important;
-  background-color: white !important;
+  color: black;
+  background-color: white;
 }
 
 @media screen and (max-width: 936px) {
@@ -92,6 +91,7 @@ ul {
   }
 }
 
+/* BOTTOM PLAYER SECTION*/
 
 .bg-container {
   height: 5.5rem;
@@ -119,9 +119,9 @@ ul {
 }
 
 .progress {
-  color: white !important;
-  background-color: #414141 !important;
-  height: 3px !important;
+  color: white;
+  background-color: #414141;
+  height: 3px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -131,6 +131,7 @@ ul {
   }
 }
 
+/*MAIN PAGE SECTION*/
 
 .mainLinks {
   margin-top: 1.5rem;
@@ -173,40 +174,4 @@ ul {
 
 .mainPage img {
   width: 200px;
-}
-
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
